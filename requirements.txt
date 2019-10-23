@@ -1,0 +1,14 @@
+#python==3.5
+#apt-get update && apt-get install libpython3.5-dev
+ucumos
+scipy
+pillow
+easydict
+opencv-python
+torch
+torchvision
+h5py
+tensorflow==1.3.0
+cython
+# chmod +x ./ctpn/lib/utils/make_cpu.sh
+# cd ./ctpn/lib/utils/ && ./make_cpu.sh
