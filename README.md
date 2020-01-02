@@ -1,3 +1,5 @@
+源码参见： https://code.ihub.org.cn/projects/772/repository/chinese-ocr
+
 # 文本识别
 
 本模型改编自GitHub开源项目：[https://github.com/ooooverflow/chinese-ocr](https://github.com/ooooverflow/chinese-ocr)
