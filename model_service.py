@@ -12,16 +12,10 @@ class ModelService(object):
     # 从文件中加载模型数据，例如预训练好的模型参数等。必须存在，不要修改或删除！！！
     def init_model_data(self):
         if self.model_core is None:
-            cwd = os.getcwd()
-            if cwd == '/app':  # 在docker容器中运行
-                os.chdir('/app/model/model/scripts/user_provided')
-
             try:
                 self.model_core = ModelCore()
             except:
                 self.model_core = None
-
-            os.chdir(cwd)
 
     # 模型接口函数
     def ocr(self, img_base64):
